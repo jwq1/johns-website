@@ -35,10 +35,23 @@ header p {
   margin-bottom: 20px
 }
 
-.storyline{
-  
+.storyline {
+
 }
 
+iframe {
+  display: flex;
+  justify-content:center;
+}
+
+.link-to-portfolio {
+  font-style: italic;
+}
+
+
+.filler-content{
+  margin-top: 300px;
+}
 .jumbotron {
   display: flex;
   align-items: center;
