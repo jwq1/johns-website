@@ -29,14 +29,15 @@ header p {
   margin: 0;
 }
 
-.intro {
+.story {
   display: flex;
-  justify-content: center;
-  margin-bottom: 20px
+  justify-content: left;
+  margin-bottom: 20px;
+  font-size: 36px;
 }
 
-.storyline {
-
+.story-divider {
+  margin-top: px
 }
 
 iframe {
