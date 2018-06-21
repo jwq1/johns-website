@@ -34,13 +34,21 @@ header p {
 }
 
 .story-scene {
-  justify-content: left;
   margin-bottom: 20px;
+  justify-content: left;
   font-size: 36px;
 }
 
 .story-divider {
   margin-top: 5%;
+  margin-bottom: 20px;
+  justify-content: left;
+  font-size: 36px;
+}
+
+.underline {
+  border-bottom: 1px solid #000;
+  padding-bottom: 3px;
 }
 
 iframe {
