@@ -29,18 +29,41 @@ header p {
   margin: 0;
 }
 
+
+/* Match section content to height of viewport */
+
+
+@media (min-height: 750px) {
+  .storyline {
+    margin: 100px inherit;
+  }
+}
+/*
+@media (max-height: 900px) {
+  .storyline {
+    margin: 700px 0;
+  }
+}
+
+@media (max-height: 1200px) {
+  .storyline  {
+    margin: 1000px 0;
+  }
+} */
+
+/* Format sections of the storyline */
 .storyline {
   display: flex;
 }
 
-.story-scene {
+.story-divider {
+  margin-top: 5%;
   margin-bottom: 20px;
   justify-content: left;
   font-size: 36px;
 }
 
-.story-divider {
-  margin-top: 5%;
+.story-scene {
   margin-bottom: 20px;
   justify-content: left;
   font-size: 36px;
