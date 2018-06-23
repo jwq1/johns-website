@@ -17,6 +17,7 @@ header h1 {
   font-weight: 700;
   margin: 0;
   font-family: 'Helvetica';
+  justify-content: flex-start;
 }
 
 header nav {
