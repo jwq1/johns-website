@@ -33,23 +33,22 @@ header p {
 /* Match section content to height of viewport */
 
 
-@media (min-height: 750px) {
+@media (min-height: 500px) {
   .storyline {
-    margin: 100px inherit;
-  }
+    margin: 100px auto;
 }
-/*
-@media (max-height: 900px) {
+
+@media (min-height: 700px) {
   .storyline {
-    margin: 700px 0;
+    margin: 200px 0;
   }
 }
 
-@media (max-height: 1200px) {
+@media (min-height: 900px) {
   .storyline  {
-    margin: 1000px 0;
+    margin: 300px 0;
   }
-} */
+}
 
 /* Format sections of the storyline */
 .storyline {
