@@ -48,6 +48,10 @@ header p {
   padding-bottom: 3px;
 }
 
+.nav-link {
+  color:#212529;
+}
+
 iframe {
   display: flex;
   justify-content:center;
