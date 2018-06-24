@@ -17,6 +17,7 @@ header h1 {
   font-weight: 700;
   margin: 0;
   font-family: 'Helvetica';
+  justify-content: flex-start;
 }
 
 header nav {
@@ -32,50 +33,10 @@ header p {
 
 /* Match section content to height of viewport */
 
-@media (min-height: 0px) {
-  .storyline {
-    align-content: center;
-}
-
-@media (min-height: 300px) {
-  .storyline {
-    /* margin: 100px auto; */
-    height:240px;
-    align-content: center;
-}
-
-@media (min-height: 500px) {
-  .storyline {
-    /* margin: 200px 0; */
-    height:480px;
-    align-content: center;
-  }
-}
-
-@media (min-height: 700px) {
-  .storyline  {
-    /* margin: 300px 0; */
-    height: 600px;
-    align-content: center;
-  }
-}
-
 /* Format sections of the storyline */
+
 .storyline {
-  display: flex;
-}
-
-.story-divider {
-  margin-top: 5%;
-  margin-bottom: 20px;
-  justify-content: left;
-  font-size: 36px;
-}
-
-.story-scene {
-  margin-bottom: 20px;
-  justify-content: left;
-  font-size: 36px;
+  font-size: 2.5rem;
 }
 
 .underline {
