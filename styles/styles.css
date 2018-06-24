@@ -62,21 +62,9 @@ header p {
 }
 
 /* Format sections of the storyline */
+
 .storyline {
-  display: flex;
-}
-
-.story-divider {
-  margin-top: 5%;
-  margin-bottom: 20px;
-  justify-content: left;
-  font-size: 36px;
-}
-
-.story-scene {
-  margin-bottom: 20px;
-  justify-content: left;
-  font-size: 36px;
+  font-size: 2.5rem;
 }
 
 .underline {
