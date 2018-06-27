@@ -9,6 +9,10 @@ header {
   padding: 20px 0;
 }
 
+h4 {
+  text-decoration: underline;
+}
+
 /* Navigation */
 .navbar-brand {
   font-size: 2rem;
