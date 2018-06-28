@@ -15,7 +15,7 @@ h4 {
 
 /* Navigation */
 .navbar-brand {
-  font-size: 2rem;
+  font-size: 2.5rem
 }
 
 /* Format sections of the storyline */
@@ -31,7 +31,6 @@ h4 {
 
 /* Maker Page */
 .definition {
-  font-size: 1.5rem;
   font-weight: 100;
 }
 
