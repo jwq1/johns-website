@@ -20,10 +20,6 @@ h4 {
 
 /* Format sections of the storyline */
 
-.storyline {
-  font-size: 2.5rem;
-}
-
 .underline {
   border-bottom: 1px solid #000;
   padding-bottom: 3px;
@@ -34,11 +30,13 @@ h4 {
   font-weight: 100;
 }
 
+/* Play page */
 .media img {
   height: auto;
   width: 120px;
 }
 
+/* Vertical alignment */
 .landing-page {
   height:100vh;
 }
@@ -51,7 +49,3 @@ h4 {
 .arrow {
   bottom: 40px;
 }
-/* Volunteer page */
-
-
-/* Match section content to height of viewport */
